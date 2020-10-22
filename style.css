@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+   font-family: 'Ubuntu', sans-serif;
+}
+
+nav .clear {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    margin: 0 auto;
+    width: 69%;
+}
+
+body{
+    background: url(./asset/bg.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.GarisAtas {
+    width: 0; 
+    height: 80px; 
+    background-color: rgb(192, 192, 192);
+    float: left;
+    margin: 20px auto;
+}
+
+.GarisSamping {
+    width: 100%;
+    background-color: rgb(192, 192, 192);
+}
+
+/* Nav */
+
+nav {
+    height: 120px;
+}
+
+nav .Ataskiri {
+    float: left;
+    padding: 0 4px;
+}
+
+nav .Ataskiri img {
+    width: 90px;
+    padding: 20px;
+}
+nav .Ataskanan {
+    float: left;
+    margin: 20px auto;
+}
+
+nav .Bagianatas {
+    display: flex;
+    padding: 10px 0;
+    margin-left: 20px;
+}
+nav .Bagianatas a {
+    margin-left: 10px;
+    font-weight: 200;
+    font-size: 13px;
+}
+
+nav .Bagianatas img {
+    width: 12px;
+    margin-left: 20px;
+    padding: 0 auto;
+}
+
+nav .Bagianatas .row2 {
+    background-color:rgba(192, 192, 192, 0.37);
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-size: 10px;
+}
+
+nav .Bagianatas .icon1 {
+    display: flex;
+}
+
+nav .icon1 .phone {
+     position: relative;
+     width: 13px;
+     bottom: 2px;
+}
+
+nav .icon1 .home {
+    width: 20px;
+}
+
+nav .atas .not img {
+    width: 15px;
+}
+
+
+nav .Bagianbawah {
+    display: flex;
+    padding: 10px 0;
+    margin-left: 20px;
+}
+nav .bawahkiri>ul, nav .bawahKanan>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav .bawahkiri>ul>li {
+    float: left;
+    margin: auto 20px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+nav .bawahKanan {
+    margin-left: 70px;
+}
+
+nav .bawahKanan>ul>li {
+    float: left;
+    margin: auto 20px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+/* akhir nav */
+
+/* Menu */
+.menu {
+    margin: 60px 20px 0 0;
+
+}
+.menu .judul p{
+    padding: 0;
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 48px;
+}
+
+button {
+    margin: 20px 0;
+    padding: 10px 40px;
+    border-radius: 3px;
+}
+
+.btnsatu {
+    background-color: rgb(60,179,113);
+    border: none;
+    color: white;
+    margin-right: 10px;
+}
+
+.btndua {
+    background-color: rgba(255, 255, 255, 0); 
+}
+
+
+/* bawah */
+
+.poto {
+    display: flex;
+    margin: 20px 0;
+}
+
+.poto .poto1 {
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.poto .poto2 img {
+    margin-left: -5px;
+    width: 107px;
+    margin-top: 5px;
+}
+
+.poto .poto3 img {
+    width: 115px;
+    margin-right: 20px;
+}
+
+.poto .poto4 img {
+    margin-left: -10px;
+    margin-top: 5px;
+}
+
+
+.bawahKanan ul {
+    list-style-type: none;
+}
+
+li .dropdown {
+    display: inline-block;
+}
+
+.dropdown:hover .menu-dropdown {
+    display: block;
+}
+
+li .menu-dropdown a:hover {
+    color: #000000 !important;
+}
+li .menu-dropdown {
+    position: absolute;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: #f9f9f9;
+    z-index: 1;
+}
+
+li .menu-dropdown a {
+    margin: 25px;
+    color: #3c3c3c !important;
+}
+
+.menu-dropdown a:hover {
+    color: #232323 !important;
+    background: #f3f3f3 !important;
+}
